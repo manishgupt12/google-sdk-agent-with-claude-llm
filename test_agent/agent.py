@@ -84,7 +84,7 @@ if __name__ == "__main__":
     # Main async function to run the examples
     async def main():
         await call_agent_async("time in nyc ")
-        await call_agent_async("time at delhi ")
+        #await call_agent_async("time at delhi ")
 
     # Execute the main async function
     try:

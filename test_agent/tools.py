@@ -49,6 +49,8 @@ def get_current_time(timezone: str) -> TimeResult | InvalidTimezoneError:
     # Business logic - get current time
     try:
         now = datetime.datetime.now(tz)
+
+        print("just checking the tool call")
         
         # Return the successful result
         return TimeResult(

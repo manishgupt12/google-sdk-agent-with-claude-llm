@@ -35,3 +35,7 @@ class InvalidTimezoneError(DomainError):
         description="The invalid timezone that was provided"
     )
     error_type: Literal["invalid_timezone"] = "invalid_timezone"
+    message: str = Field(
+        ...,
+        description="The error message associated with the invalid timezone"
+    )
